@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #753735;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  text-align: center;
+  border: 2px solid #ccc;
+  background-color: #B58524;
+
+}
+ 
+#chat {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  text-align: center;
+  bottom: 50px;
+  background-color: #B58524;
+}
+
+#footer {
+  background-color: #B58524;
+  text-align: center;
+  border: 2px solid #ccc;
+  bottom: 10px; 
+}
+
+#dropdown {
+  
+  
+  text-align: center;
+  font-size:17px;
+}
+
+#dropdown-content {
+  display: none;
+  
+  background-color: #D29C00;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+  
+  
+}
+
+#dropdown-content li a{
+  padding: 3px;
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size:12px;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 5px;
+  background-color: #D7B138;
+}
+
+button {
+  padding: 4px;
+  background-color: #D7B138;
+  border-radius: 12px;
+}
